@@ -13,7 +13,7 @@ or traced; Tiger's icons served only as a style reference. There are no trademar
 
 ## What's inside
 
-- 84 icons (apps, places, devices, file types, preferences, status), with the common
+- 89 icons (apps, places, devices, file types, preferences, status), with the common
   freedesktop and GNOME names as aliases so other apps pick them up too.
 - Sizes 16, 22, 24, 32, 48, 64, 96, 128 and 256 px, plus 2× for HiDPI screens (a 2× size that has
   the same pixels as a 1× one is a link to it, so the theme stays small: about 4 MB).
@@ -37,6 +37,7 @@ The images are rendered from Glove's source code:
 git clone https://github.com/fabioaacarneiro/glove
 cd glove && cargo build --release -p glove-arte
 ./target/release/glove-arte icones /path/to/glove-icons/Glove
+./target/release/glove-arte previa /path/to/glove-icons/preview.png   # this preview
 ```
 
 ## License
