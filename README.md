@@ -20,6 +20,10 @@ or traced; Tiger's icons served only as a style reference. There are no trademar
 - Lossless PNGs with maximum compression.
 - Anything missing falls back to Adwaita and hicolor.
 
+Glove itself uses this theme by default (Glove OS and the `glove` package install it): the
+PNG files are lighter than drawing each icon at run time. Calendar icons show a fixed date
+(July 17); inside Glove the Calendar icon still shows today.
+
 ## Install
 
 ```sh
